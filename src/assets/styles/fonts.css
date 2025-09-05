@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "YouSheBiaoTiHei Regular";
+    src: url("../fonts/youshebiaotihei.ttf") format("truetype");
+    font-weight: normal;
+    font-variation-settings: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "PingFang-Heavy";
+    src: url("../fonts/PingFang-Heavy.otf") format("opentype");
+    font-weight: normal;
+    font-variation-settings: normal;
+    font-display: swap;
+}

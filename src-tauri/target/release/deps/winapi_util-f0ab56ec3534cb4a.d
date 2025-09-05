@@ -1,0 +1,11 @@
+E:\Tauri\tauri-app\src-tauri\target\release\deps\winapi_util-f0ab56ec3534cb4a.d: C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\lib.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\console.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\file.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\sysinfo.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\win.rs
+
+E:\Tauri\tauri-app\src-tauri\target\release\deps\libwinapi_util-f0ab56ec3534cb4a.rlib: C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\lib.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\console.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\file.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\sysinfo.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\win.rs
+
+E:\Tauri\tauri-app\src-tauri\target\release\deps\libwinapi_util-f0ab56ec3534cb4a.rmeta: C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\lib.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\console.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\file.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\sysinfo.rs C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\win.rs
+
+C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\lib.rs:
+C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\console.rs:
+C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\file.rs:
+C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\sysinfo.rs:
+C:\Users\JDD\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\winapi-util-0.1.10\src\win.rs:
