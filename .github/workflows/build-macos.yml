@@ -1,0 +1,44 @@
+name: Build Tauri App for macOS
+
+on:
+  push:
+    branches:
+      - master      # 当你推送代码到 main 分支时触发
+  pull_request:
+    branches:
+      - master      # 或者你开发用的分支，如 master / dev
+
+jobs:
+  build-macos:
+    name: Build Tauri for macOS (x86_64)
+    runs-on: macos-latest  # 使用 GitHub 提供的免费 macOS 虚拟机
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+
+      - name: 设置 Rust 工具链
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: 设置 Node.js（用于前端，如 Vue/React）
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 安装前端依赖
+        run: npm install
+        working-directory: ./  # 根据你的项目结构，通常是根目录，也可能是 ./src-tauri/..
+
+      - name: 安装 Tauri CLI
+        run: cargo install tauri-cli
+
+      - name: 构建 Tauri 应用（macOS, Intel x86_64）
+        run: cargo tauri build --target x86_64-apple-darwin
+
+      - name: 查看构建产物
+        run: |
+          echo "Tauri 构建产物通常在：src-tauri/target/release/bundle/"
+          ls -R src-tauri/target/release/bundle/
