@@ -26,6 +26,16 @@
   "bundle": {
     "active": true,
     "targets": "all",
-    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"]
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
+    "shortDescription": "A Tauri app built with macOS support.",
+    "longDescription": "This is a Tauri application configured for macOS with proper window size, icon, and metadata.",
+    "category": "DeveloperTool", 
+    "copyright": "Copyright © 2024 Your Name",
+    "minimumSystemVersion": "10.15", 
+    "macOS": {
+      "providerShortName": "JDD",
+      "signingIdentity": null, 
+      "entitlements": null 
+    }
   }
 }
